@@ -4,9 +4,9 @@
 
 /**
  *main - Determine the last digit of the number stored in the variable n
- * greater than or less than 5, or is zero.
+ *greater than or less than 5, or is zero.
  *
- * Return: Alwayss 0 (Success)  
+ *Return: Alwayss 0 (Success)  
  */
 int main(void)
 {
@@ -27,7 +27,7 @@ int main(void)
 	}
 	else if (l < 6 && l != 0)
 	{
-		printf("Last digit os %d is %d and is less than 6 and not 0\n", n, l);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
 	return (0);
 }
