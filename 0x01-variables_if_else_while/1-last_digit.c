@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- *main - Determine the last digit of the number stored in the variable n
- *greater than or less than 5, or is zero.
+ * main - Determine the last digit of the number stored in the variable n
+ * greater than or less than 5, or is zero.
  *
- *Return: Alwayss 0 (Success)  
+ * Return: Alwayss 0 (Success)
  */
 int main(void)
 {
