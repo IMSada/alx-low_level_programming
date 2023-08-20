@@ -14,6 +14,4 @@ void print_aplhabet(void)
 		_putchar(i);
 	}
 	_putchar('\n');
-
-	return (0);
 }
