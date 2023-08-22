@@ -3,6 +3,7 @@
 /**
  * more numbers - Function prints 10 times the numbers 0 to 14
  * Description: Can only use _putchar 3 times.
+ * 
  * Return: Always 0.
  */
 void more_numbers(void)
@@ -16,8 +17,9 @@ void more_numbers(void)
 		while (j < 15)
 		{
 			if (j > 9)
+			{
 				_putchar(j / 10 + '0');
-
+			}
 			_putchar(j % 10 + '0');
 			j++;
 		}
