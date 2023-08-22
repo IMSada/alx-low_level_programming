@@ -2,8 +2,8 @@
 
 /**
  * print_diagonal - Function draws a diagonal line in the terminal.
- * @n: number of times the character \ is printed.
- * Description: Only use _putchar function to print.
+ * n: number of times the backslah character is printed.
+ * Only use _putchar function to print.
  */
 void print_diagonal(int n)
 {
