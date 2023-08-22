@@ -2,7 +2,8 @@
 
 /**
  * more numbers - Function prints 10 times the numbers 0 to 14
- * Description: _putchar used not more than 3 times only.
+ * Description: Can only use _putchar 3 times.
+ * Return: Always 0.
  */
 void more_numbers(void)
 {
