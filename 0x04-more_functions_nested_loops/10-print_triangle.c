@@ -6,7 +6,7 @@
  * Only use _putchar function to print.
  * Use # character to print the triangle.
  */
-void print_triangles(int size)
+void print_triangle(int size)
 {
 	int i, j, k;
 
