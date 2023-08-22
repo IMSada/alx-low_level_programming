@@ -3,7 +3,7 @@
 /**
  * print_diagonal - Function draws a diagonal line in the terminal.
  * @n: number of times the character \ is printed.
- * Only use _putchar function to print.
+ * Description: Only use _putchar function to print.
  */
 void print_diagonal(int n)
 {
