@@ -2,8 +2,8 @@
 
 /**
  * _strcat - function concatenates two strings.
- * function appends 'src' string to the 'dest' string.
- * @n: number of elements to concatenate.
+ * This function appends 'src' string to the 'dest' string.
+ *
  * Return: pointer to resulting 'dest'
  */
 char *_strcat(char *dest, char *src)
