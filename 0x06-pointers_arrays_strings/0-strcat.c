@@ -6,15 +6,19 @@
  * @n: number of elements to concatenate.
  * Return: pointer to resulting 'dest'
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;
+	int a, b;
 
-	while (dest[index++])
-		dest_len++;
+	for (a = 0; dest[a] != '\0'; a++)
+		;
 
-	for (index = 0; src[index] && index < n; index++)
-		dest[dest_len++] = src[index];
+	for (b = 0; src[b] != '\0'; b++)
+	{
+		dest[a] = src[b];
+		a++;
+	}
 
+	dest[a] = '\0';
 	return (dest);
 }
