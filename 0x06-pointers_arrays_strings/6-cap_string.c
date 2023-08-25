@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cap_string - Capitalize all words of a string
+ * cap_string - capitalize all words of a string
  * @str: string
  * Return: `str`
  */
@@ -29,7 +29,7 @@ char *cap_string(char *str)
 		    str[i - 1] == '}' ||
 		    i == 0)
 			str[i] -= 32;
-		
+
 		i++;
 	}
 
