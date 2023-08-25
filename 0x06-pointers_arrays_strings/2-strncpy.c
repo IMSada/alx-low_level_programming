@@ -7,7 +7,7 @@
  * @n: number of characters to copy over
  * Return: `dest` edited string
  */
-char *strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
