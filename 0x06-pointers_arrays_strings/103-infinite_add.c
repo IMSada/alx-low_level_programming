@@ -51,11 +51,11 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 	return (r + r_index + 1);
 }
 /**
- * infinite_add - adds 2 numbers.
- * @n1: first number to be added.
- * @n2: second number to be added.
- * @r: buffer to store the result.
- * @size_r: buffer size.
+ * infinite_add - Adds two numbers.
+ * @n1: The first number to be added.
+ * @n2: The second number to be added.
+ * @r: The buffer to store the result.
+ * @size_r: The buffer size.
  *
  * Return: If r can store the sum - a pointer to the result.
  * If r cannot store the sum - 0.
