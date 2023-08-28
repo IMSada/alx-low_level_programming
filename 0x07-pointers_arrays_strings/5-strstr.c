@@ -6,7 +6,7 @@
  * of the substring needle in the string haystack.
  * @haystack: parameter for haystack
  * @needle: parameter for needle.
- * Return: a pointer to the beginning of the located substring, or 
+ * Return: a pointer to the beginning of the located substring, or
  * NULL if the substring is not found.
  */
 char *_strstr(char *haystack, char *needle)
@@ -18,7 +18,7 @@ char *_strstr(char *haystack, char *needle)
 		char *pattern = needle;
 
 		while (*pattern == *haystack && *pattern != '\0'
-			&& *haystack != '\0')
+		       && *haystack != '\0')
 		{
 			haystack++;
 			pattern++;
