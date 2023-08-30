@@ -8,7 +8,7 @@ int is_prime_number(int n);
  * @num: number to be checked.
  * @div: divisor
  *
- * Return 0 if number is divisible.
+ * Return: 0 if number is divisible.
  * -1 if number not divisible.
  */
 
