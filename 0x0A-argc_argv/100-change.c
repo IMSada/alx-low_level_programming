@@ -3,7 +3,8 @@
 #include <stdlib.h>
 
 /**
- * main - program prints the minimum number of coins to make change for an amount of money.
+ * main - program prints the minimum number of coins to
+ * make change for an amount of money.
  * @argc: argument count.
  * @argv: argument vector, array of strings.
  * Return: 0 if successful, 1 if error.
@@ -14,7 +15,7 @@ int main(int argc, char **argv)
 	int sum, count;
 	unsigned int i;
 	char *p;
-	int cents[] = {25, 10, 5, 2};
+	int cents[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
 	{
@@ -34,7 +35,7 @@ int main(int argc, char **argv)
 				if (sum >= cents[i])
 				{
 					count += sum / cents[i];
-					sum = sum / cents[i];
+					sum = sum % cents[i];
 				}
 			}
 		}
