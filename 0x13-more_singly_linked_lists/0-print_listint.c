@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_listint - prints all the elements of a list_int list
+ * print_listint - Print all the elements of a list_int list
  * @h: data type pointer of struct
  * Return: elements of the str index
  */
